@@ -5,7 +5,7 @@ namespace IChinese\Open\Gen;
 
 final class Meta
 {
-    const VERSION = '1.0.0';
+    const VERSION = '1.0.0-rc.8';
     const DEFAULT_BASE_URL = 'https://open.ichinese.cn';
     const API_PREFIX = '/open-apis/v1';
     const SCOPES = ['openid', 'profile', 'phone', 'email', 'org:member:readonly', 'org:member', 'class:readonly', 'class:member', 'schedule:readonly', 'schedule', 'attendance:readonly', 'coursework', 'grade:readonly', 'course', 'learning:progress:readonly', 'im:message:send_as_bot', 'im:chat:readonly', 'notify:send', 'live:recording:readonly', 'event', 'event:registration:readonly', 'job', 'job:candidate:readonly', 'trial', 'trade:order:readonly', 'trade:booking:readonly', 'venue:readonly', 'venue', 'opening:readonly', 'review', 'profile:interest:readonly', 'profile:interest', 'profile:learning:readonly', 'report:create', 'community:post', 'me:schedule:readonly', 'me:learning:readonly', 'me:words:readonly', 'me:words', 'insights:readonly'];

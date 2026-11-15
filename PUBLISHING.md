@@ -1,6 +1,6 @@
 # PHP SDK 发布准备
 
-用户已授权创建公开源码仓库 `ichinese-cn/open-sdk-php` 并初始化 PHP SDK；当前准备 Packagist 首次登记。平台生产推送与正式 SDK tag 仍按统一发布流程执行。
+用户已授权创建公开源码仓库 `ichinese-cn/open-sdk-php` 并初始化 PHP SDK；Packagist 首次登记已由用户完成，当前可读到 dev-main。平台生产推送与正式 SDK tag 仍按统一发布流程执行。
 
 ## 用户需要准备
 
@@ -27,6 +27,6 @@ composer require 'ichinese/open-sdk:^1.0@rc'
 - 沿用 D96：生产接口部署完成后统一发布任务同步各仓库，PHP 在 Go 前推送，Go 仍最后作为整次发布的记录。独立 PHP 工作流校验 tag 与 Meta::VERSION、运行兼容矩阵、打包。
 - Packagist 本身由仓库 webhook 读取 tag，与 GitHub Actions 校验独立；正式推送前应完成独立副本验证。无需 npm token、PyPI token、Maven GPG 或额外的 Packagist CI 写入密钥。
 
-首次正式发布前移除 README 和开发指南中“本地新增，尚未发布”的说明，核对包名权限与实际登记地址。PHP SDK 继续与其他语言使用同一个版本号，不自行从 rc.1 重新编号。
+正式发布前核对 Packagist 自动同步状态和实际登记地址。PHP SDK 继续与其他语言使用同一个版本号，不自行从 rc.1 重新编号。
 
 依据：Packagist 官方发布与自动更新说明 https://packagist.org/about ，Composer 旧 PHP 下载渠道 https://getcomposer.org/download/ 。

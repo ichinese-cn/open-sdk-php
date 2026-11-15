@@ -1,12 +1,14 @@
 # 开放平台 PHP SDK
 
+> **Prerelease 1.0.0-rc.8.** 这是预发布版，开放平台还没有正式开放，SDK 的默认地址可能连不上。This is a prerelease: the open platform is not open to the public yet, so the SDK's default address may not answer.
+
 PHP 服务端 SDK，与 Node/Python/Go/Java 使用同一份开放接口契约。支持 PHP **5.6.1+**（5.6 系列建议 5.6.40）及 PHP 7/8，MIT 许可证。需要 cURL、OpenSSL、JSON、hash、ctype 扩展；Composer 自动安装 phpseclib 3，兼容旧 PHP 的 AES-256-GCM 事件解密。
 
-**尚未发布到 Packagist。** 独立公开源码仓库：[ichinese-cn/open-sdk-php](https://github.com/ichinese-cn/open-sdk-php)，包名 `ichinese/open-sdk`。main 分支为预发布源码，版本标签由平台统一发布流程生成。该仓库为发布生成副本，请通过 issue 反馈改动。
+**预发布 SDK。** 包已登记到 [Packagist](https://packagist.org/packages/ichinese/open-sdk)，版本随统一发布标签同步。独立公开源码仓库：[ichinese-cn/open-sdk-php](https://github.com/ichinese-cn/open-sdk-php)，包名 `ichinese/open-sdk`。main 分支为预发布源码，版本标签由平台统一发布流程生成。该仓库为发布生成副本，请通过 issue 反馈改动。
 
 ## 安装
 
-首次发布后：
+安装已发布的预发布版本：
 
 ```sh
 composer require 'ichinese/open-sdk:^1.0@rc'
