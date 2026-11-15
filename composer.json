@@ -1,0 +1,27 @@
+{
+  "name": "ichinese/open-sdk",
+  "description": "iChinese 开放平台 PHP 服务端 SDK",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/ichinese-cn/open-sdk-php",
+  "require": {
+    "php": ">=5.6.1",
+    "phpseclib/phpseclib": "^3.0",
+    "ext-curl": "*",
+    "ext-openssl": "*",
+    "ext-json": "*",
+    "ext-hash": "*",
+    "ext-ctype": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "IChinese\\Open\\": "src/"
+    }
+  },
+  "scripts": {
+    "test": "@php tests/run.php"
+  },
+  "archive": {
+    "exclude": ["/tests", "/examples", "/.github", "/RELEASE.json", "/vendor", "/composer.lock", "/dist"]
+  }
+}
