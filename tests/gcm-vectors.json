@@ -1,0 +1,42 @@
+{
+  "$comment": "Node.js crypto AES-256-GCM reference vectors: empty, partial and full blocks; fixed nonce only for tests.",
+  "key": "php-legacy-gcm-compatibility",
+  "vectors": [
+    {
+      "plain": "",
+      "encrypted": "AAECAwQFBgcICQoLS54V31Kc6giUVUeb4vTDtg=="
+    },
+    {
+      "plain": "x",
+      "encrypted": "AAECAwQFBgcICQoLp2OXp7elvuuJ0oEDrVEtmtI="
+    },
+    {
+      "plain": "xxxxxxxxxxxxxxx",
+      "encrypted": "AAECAwQFBgcICQoLp9L7ugOvIrd6OaLgy1loXJiO7CjG9+VdxUUI0ds/UQ=="
+    },
+    {
+      "plain": "xxxxxxxxxxxxxxxx",
+      "encrypted": "AAECAwQFBgcICQoLp9L7ugOvIrd6OaLgy1loP8mec5rlBbMDbWo4NqFzFMg="
+    },
+    {
+      "plain": "xxxxxxxxxxxxxxxxx",
+      "encrypted": "AAECAwQFBgcICQoLp9L7ugOvIrd6OaLgy1loP3hF/hMPbCdYtbFJAElVFnxR"
+    },
+    {
+      "plain": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "encrypted": "AAECAwQFBgcICQoLp9L7ugOvIrd6OaLgy1loP3ghl8SREL8BMUVU6B83qAX6Ztcue4KELnRv0LLd1hc="
+    },
+    {
+      "plain": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "encrypted": "AAECAwQFBgcICQoLp9L7ugOvIrd6OaLgy1loP3ghl8SREL8BMUVU6B83qLoJum+HbQ8cC2A+DMKAgJqf"
+    },
+    {
+      "plain": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "encrypted": "AAECAwQFBgcICQoLp9L7ugOvIrd6OaLgy1loP3ghl8SREL8BMUVU6B83qLqgOBWrM2zrO+RE9lwN+wv8Vg=="
+    },
+    {
+      "plain": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "encrypted": "AAECAwQFBgcICQoLp9L7ugOvIrd6OaLgy1loP3ghl8SREL8BMUVU6B83qLqg6NEcqMUEhYSkUWNrYcJ7l42MKDwOpyBro3Hofa00gxesh4lPp2b3yU0Ss2/gyX5KYEwgZjIHzHKI1/+wEb7FHNiaelAMgID6RXus87QDaYo4ZoJANbi6npNd9+5Xe0yvhskMlXhY2OLL+NNHlD1F"
+    }
+  ]
+}
